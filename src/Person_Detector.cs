@@ -22,7 +22,9 @@ namespace Emgu_4._0
 		private static Image<Bgr, byte> imageToProcess;
 		private static List<PointF> positions = new List<PointF>();
 		private static List<PointF> facePositions = new List<PointF>();
-		
+		private static GpuCascadeClassifier face = new GpuCascadeClassifier(@"haarcascade_frontalface_default.xml");
+
+
 
 
 		public static Image<Bgr, Byte> findPerson(Image<Bgr, Byte> image, out int detections, out List<PointF> positions)
@@ -79,8 +81,7 @@ namespace Emgu_4._0
 			 
 			Person_Detector.facePositions.Clear();
 
-			using (GpuCascadeClassifier face = new GpuCascadeClassifier(@"haarcascade_frontalface_default.xml")) //Uses haarcascade data to initnialize a new cascade classifier
-					{ 
+			
 						using (GpuImage<Bgr, Byte> gpuImage = new GpuImage<Bgr, byte>(image))
 						using (GpuImage<Gray, Byte> gpuGray = gpuImage.Convert<Gray, Byte>())  //The cascade classifier only takes gray for some reason
 						{  
@@ -96,8 +97,8 @@ namespace Emgu_4._0
 							}
 						detections = faces.Length;
 						positions = facePositions;
-					}
-					}
+						}
+					
 
 
 
