@@ -1,3 +1,6 @@
+--IMPORTANT--
+This is the repository of the laser project showcased on YouTube. I think it goes without saying, and was evident by my multiple winces on camera, that no one should shoot a laser into their eye. No one should use this technology to inflict bodily harm on themselves or anyone else. That being said, enjoy the repository.
+
 --Personal Note-- 
 To be honest, this project started as a joke, but quickly evolved into a personal challenge of ability. I had to tackle a lot of different problems and am
 very pleased with the overall outcome.
@@ -41,4 +44,3 @@ If you'd like to contact me, you can call me at (808) 269-5630 or michaelreeves8
 --Visit Me--
 My Portfolio: michaelreeves.us
 My Company Website: www.infibit.net
-
