@@ -38,7 +38,7 @@ to store settings) located in the same directory as the .exe. When the main dete
 
 
 --Contact--
-If you'd like to contact me, you can call me at (808) 269-5630 or michaelreeves808@gmail.com
+Email: michaelreeves808@gmail.com
 
 
 --Visit Me--
